@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto !important;
+    padding: 0 !important;
+    background-color: rgb(245, 239, 239);
+}
+
+.container{
+    height: auto;
+    margin: 0 auto !important;
+}
+
+header{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+hr{
+    height: .3rem;
+    width: 10rem;
+    margin-top: 2rem;
+    border-top: 5px solid rgb(2, 247, 255)!important;
+    outline: none;
+}
+
+.header img{
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.hero{
+    height: 400px;
+}
+
+.hero .img{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+
+.hero .img img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .body{
+    position: relative;
+    vertical-align: middle;
+}
+
+.hero .body h1{
+    padding-top: 7rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.hero .body h4{
+    padding-top: 1rem;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: .5rem;
+    font-size: .8rem;
+    border-radius: .5rem;
+    outline: none;
+    border: 1px solid blue;
+}
+
+.about, .work  {
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.about p , .work p{
+    padding-top: 2rem;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.about h3{
+    margin-top: 2rem;
+    font-size: .8rem;
+    font-weight: lighter;
+}
+
+.footer{
+    margin-top: 2rem;
+    height: 100px;
+    background: blue;
+
+}
+.footer button{
+    margin-top: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgb(2, 247, 255);
+}
+
+@media only screen and (max-width: 600px) {
+    .body h1 {
+      font-size: .8rem;
+    }
+}  

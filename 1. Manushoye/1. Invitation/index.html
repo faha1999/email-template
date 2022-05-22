@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+
+   <style>
+       *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto !important;
+    padding: 0 !important;
+    background-color: rgb(245, 239, 239);
+}
+
+.container{
+    height: auto;
+    margin: 0 auto !important;
+}
+
+header{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+hr{
+    height: .3rem;
+    width: 10rem;
+    margin-top: 2rem;
+    border-top: 5px solid rgb(2, 247, 255)!important;
+    outline: none;
+}
+
+.header img{
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.hero{
+    height: 400px;
+}
+
+.hero .img{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+
+.hero .img img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .body{
+    position: relative;
+    vertical-align: middle;
+}
+
+.hero .body h1{
+    padding-top: 7rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.hero .body h4{
+    padding-top: 1rem;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: .5rem;
+    font-size: .8rem;
+    border-radius: .5rem;
+    outline: none;
+    border: 1px solid blue;
+}
+
+.about, .work  {
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.about p , .work p{
+    padding-top: 2rem;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.about h3{
+    margin-top: 2rem;
+    font-size: .8rem;
+    font-weight: lighter;
+}
+
+.footer{
+    margin-top: 2rem;
+    height: 100px;
+    background: blue;
+
+}
+.footer button{
+    margin-top: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgb(2, 247, 255);
+}
+
+@media only screen and (max-width: 600px) {
+    .body h1 {
+      font-size: .8rem;
+    }
+}  
+   </style>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <header>
+                <a href="https://www.manushoye.com/">
+                    <img src="https://www.manushoye.com/static/img/Manushoye-Logo.png" alt="logo">
+                </a>
+            </header>
+    
+            <div class="hero">
+                <div class="img">
+                    <img src="https://www.manushoye.com/static/img/Slide1.png" alt="">
+                </div>
+
+                <!-- <div class="body">
+                    <h1>WE CONNECT PEOPLE TO HELP EACH OTHER</h1>
+
+                    <hr>
+
+                    <h4>A Social Platform of helping hands</h4>
+                    <a href="https://www.manushoye.com/posts/register/"><button>I want to help</button></a>
+                    
+                    <a href="https://www.manushoye.com/"><button>I need help</button></a>
+                    
+                    <br>
+                    <a href="https://www.manushoye.com/abouts_path/"><button>Lorn more</button></a>
+                    
+                </div> -->
+
+                
+            </div>
+
+            <div class="about">
+                <h2>About Us</h2>
+                <hr>
+                <p>
+                    <a href="http://www.manushoye.com/">Manushoye.com</a> is a platform connecting help-seeking people with individual help providers by maintaining help seeker's privacy & dignity strictly. Here anyone can ask for any kinds of help as long as It's legal with a very easy procedure; at the same time, anyone at ease can find and provide assistance to help seeker from any locality he wants to. Throughout the process manushoye wouldn’t charge a single penny; means it completely free to use.
+                </p>
+            
+                  <h3>Our goal is to bring harmony to society using ICT.</h3>
+            </div>
+
+            <div class="work">
+                <h2>How It Works</h2>
+                <hr>
+
+                <p>
+                    Manushoye works as a help exchange platform. To avail it you need to <b> register</b> and <b>login</b> first with your valid mobile number and password.
+                    <br>
+                    <br>
+                    To get help, you have to write your story or needs by clicking on the <b>"I need help"</b> button on the home page or <b>create post</b> button on Post page.
+                    <br>
+                    <br>
+                    You can request for a maximum of 5 hours of help in this way. If you need more time of help, you can get it by helping others and increasing the <b>hour point</b> in your account first.
+                    <br>
+                    <br>
+
+                    To help others, please visit the <b>Post</b> page or visit the <b>Map</b> to see who require help from your neighbouring area. Next, click the <b>send help request</b> button of the post that you find appropriate for offering help to the requesting person.
+                </p>
+            </div>
+
+            <div class="footer">
+                <a href="https://www.manushoye.com/"><button>Join us to enrich humanity</button></a>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
